@@ -1,0 +1,21 @@
+#+title: Curso IC 2022.1
+
+- Veja file:ementa.pdf
+
+
+* Links Interessantes
+
+  - https://www.codewars.com
+  - http://rosettacode.org
+  - https://www.hackerrank.com
+
+* Ferramentas
+
+  - http://docker.com
+  - https://code.visualstudio.com
+
+  - https://www.python.org
+  - http://haskell.org
+  - http://racket-lang.org
+  - http://leanprover.github.io
+    
