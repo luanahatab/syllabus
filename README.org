@@ -1,6 +1,6 @@
 #+title: Curso IC 2022.1
 
-- Veja file:ementa.pdf
+- Veja [[file:ementa.pdf]]
 
 
 * Links Interessantes

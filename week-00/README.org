@@ -71,35 +71,16 @@ See file:apresentacao.pdf
   0 1 0
   #+end_example
 
-- Then we'll “add 1” to represent 3:
+- Then we'll “add 1” to represent 3, 4 etc:
 
-  #+begin_example
-  0 1 1
-  #+end_example
-
-- And continue the pattern for 4 ...:
-
-  #+begin_example
-  1 0 0
-  #+end_example
-
-- ... 5 ...:
-
-  #+begin_example
-  1 0 1
-  #+end_example
-
-- ... 6 ...:
-
-  #+begin_example
-  1 1 0
-  #+end_example
-
-- ... and 7:
-
-  #+begin_example
-  1 1 1
-  #+end_example
+  | binary | decimal |
+  |--------+---------|
+  |    011 |       3 |
+  |    100 |       4 |
+  |    101 |       5 |
+  |    110 |       6 |
+  |    111 |       7 |
+  |--------+---------|
 
 - Each /binary digit/ is also called a *bit*.
 
