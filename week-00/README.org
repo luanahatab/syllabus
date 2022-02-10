@@ -1,6 +1,6 @@
 #+title: Week 0
 
-See file:apresentacao.pdf
+See [[file:apresentacao.pdf]]
 
 * Welcome
 
