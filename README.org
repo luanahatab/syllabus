@@ -19,3 +19,8 @@
   - http://racket-lang.org
   - http://leanprover.github.io
     
+* Onde tirar dúvidas
+
+ - https://stackoverflow.com
+ - https://en.wikibooks.org/wiki/C_Programming
+- 
