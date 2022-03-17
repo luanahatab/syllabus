@@ -1,5 +1,3 @@
-// Implements a phone book with structs
-
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -10,6 +8,15 @@ typedef struct
     string number;
 }
 person;
+
+person new(string n, string t)
+{
+    // incompleto
+    person a;
+    a.name = "Alexandre";
+    a.number = "1234";
+    return a;
+}
 
 int main(void)
 {
