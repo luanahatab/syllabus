@@ -5,7 +5,7 @@
 
 
 void selection(int numbers[], int size);
-void buble(int numbers[], int size);
+void bubble(int numbers[], int size);
 
 void print_array(int numbers[], int size)
 {
