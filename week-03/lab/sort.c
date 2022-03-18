@@ -76,6 +76,32 @@ int main(int argc, char* argv[])
     numbers[i] = atoi(line);
   }
 
+void bubble (int *numbers, int size) {
+
+  for (int j = 0; j < size; j++) {
+    for (int i = 0; i < (size - 1); i++) {
+      if (numbers [i] > numbers [i + 1]) {
+				int k = numbers [i];
+				numbers [i] = numbers [i + 1];
+				numbers [i + 1] = k;
+			}
+		}
+	}
+}
+
+void selection (int *numbers, int size) {
+
+  for (int i = 0; i < size; i++) {
+    int k = numbers [i];
+    for (int j = 1; j < (size); j++) {
+      if (numbers [i] > numbers [j]) {
+        numbers [i] = numbers [j];
+      }
+    }
+    numbers [j] = k;
+  }
+}
+
   /* antes da próxima linha, deve acrescentar um código que verifica o
      valor do segundo parâmetro passado para o programa escolhe a
      função de sort adequada. Ambas as funções irão modificar o
