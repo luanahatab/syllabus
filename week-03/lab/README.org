@@ -12,6 +12,10 @@
   adequada dependendo do segundo parâmetro passado. Se for 's' será a
   'selection', se for 'b' será a 'bubble'.
 
+  Desafio!! Tente implementar também a função =merge= que implementa o
+  'merge sort'. No código fonte apresendo na forma de comentário link
+  para um bom livro com o pseudo-código para o merge sort.
+
 * Compilar
 
 Para compilar, use:

@@ -3,11 +3,22 @@
 #include <cs50.h>
 #include <stdlib.h>
 
+/* ambas as funcoes recebem 'int *numbers' que internamente deve ser
+   tratado na função como numbers sendo um array de tamanho 'size'. O
+   efeito desejado é que o array passado será alterado para função
+   embora nenhum valor seja explicitamente retornado por elas. */
 
-void selection(int numbers[], int size);
-void bubble(int numbers[], int size);
+void selection(int *numbers, int size);
+void bubble(int *numbers, int size);
 
-void print_array(int numbers[], int size)
+
+/* DESAFIO! Tentar implementar a função merge sort. Vide
+   http://algorithmics.lsi.upc.edu/docs/Dasgupta-Papadimitriou-Vazirani.pdf
+   pagina 56 (seçao 2.3) */
+
+void merge(int *numbers, int size);
+
+void print_array(int *numbers, int size)
 {
   for(int i = 0; i < size; i++)
   {
@@ -15,9 +26,9 @@ void print_array(int numbers[], int size)
   }
 }
 
-void usage(string error)
+void usage()
 {
-  printf("\n\tUsage ./sort [b|s] FILE\n\n\tError: %s\n\n", error);
+  printf("\n\tUsage ./sort [b|s] FILE\n\n");
 }
 
 int main(int argc, char* argv[])
@@ -25,13 +36,15 @@ int main(int argc, char* argv[])
 
   if(argc < 3)
   {
-    usage("wrong number of arguments");
+    printf("Error: wrong number of arguments.\n");
+    usage();
     return 1;
   }
 
   if(strcmp(argv[1],"b") != 0 && strcmp(argv[1],"s") != 0)
   {
-    usage("second argument need to be 'b' or 's'");
+    printf("Error: second argument need to be 'b' or 's'\n");
+    usage();
     return 1;
   }
 
@@ -39,7 +52,7 @@ int main(int argc, char* argv[])
   fp = fopen(argv[2], "r");
   if (fp == NULL)
     {
-      printf("Erro ao abrir o arquivo %s.\n", argv[2]);
+      printf("Error ao abrir o arquivo %s.\n", argv[2]);
       return 1;
     }
 
@@ -57,14 +70,17 @@ int main(int argc, char* argv[])
     int r = getline(&line, &len, fp);
     if(r == -1)
     {
-      printf("Error, missing numbers according to the header!");
+      printf("Error: missing numbers according to the header!");
       return 1;
     }
     numbers[i] = atoi(line);
   }
 
-  /* testing, next line will be replaced by a code that, given the
-     second parameter, choose the right sort function to execute. */
+  /* antes da próxima linha, deve acrescentar um código que verifica o
+     valor do segundo parâmetro passado para o programa escolhe a
+     função de sort adequada. Ambas as funções irão modificar o
+     parâmetro passado mas não retornar nada. A função 'print_array'
+     então irá imprimir o array ordenado. */
   print_array(numbers, N);
 
   fclose(fp);
