@@ -46,26 +46,26 @@ Python e SQL, além de HTML, CSS e JavaScript.
 
 * Conteúdo programático detalhado
 
-  |------------+------------------------------------------+----------------------------|
-  | Datas      | Tópico                                   | Atividades                 |
-  |------------+------------------------------------------+----------------------------|
-  | 7,9,11/2   | Introdução ao curso e conceitos iniciais | Apresentação e Laboratório |
-  | 14,16,18/2 | Introdução linguagem C                   | Apresentação e Laboratório |
-  | 21,23,25/2 | Introdução linguagem C                   | Apresentação e Laboratório |
-  | 7,9,11/3   | Arrays                                   | Apresentação e Laboratório |
-  | 14,16,18/3 | Algoritmos                               | Apresentação e Laboratório |
-  | 21,23,25/3 | Memória                                  | Apresentação e Laboratório |
-  | 28,30/1/4  | Estruturas de dados                      | Apresentação e Laboratório |
-  | 13/4       | Python                                   | Apresentação e Laboratório |
-  | 18,20/4    | Python, SQL                              | Apresentação e Laboratório |
-  | 25,27,29/4 | HTML, CSS, JavaScript                    | Apresentação e Laboratório |
-  | 2,4,6/5    | Flask                                    | Apresentação e Laboratório |
-  | 9,11,13/5  | Linguagens funcionais: Haskell           | Apresentação e Laboratório |
-  | 16,18,20/5 | Linguagens funcionais: Racket            | Apresentação e Laboratório |
-  | 23,25,27/5 | Provando correção: Lean                  | Apresentação e Laboratório |
-  | 30,1,3/6   | Apresentação de projetos                 | Apresentação e Laboratório |
-  | 6/6        | Conclusion                               | Apresentações              |
-  |------------+------------------------------------------+----------------------------|
+  |------------+------------------------------------------+----------------------------+---|
+  | Datas      | Tópico                                   | Atividades                 | W |
+  |------------+------------------------------------------+----------------------------+---|
+  | 7,9,11/2   | Introdução ao curso e conceitos iniciais | Apresentação e Laboratório | 0 |
+  | 14,16,18/2 | Introdução linguagem C                   | Apresentação e Laboratório | 1 |
+  | 21,23,25/2 | Introdução linguagem C                   | Apresentação e Laboratório | 1 |
+  | 7,9,11/3   | Arrays                                   | Apresentação e Laboratório | 2 |
+  | 14,16,18/3 | Algoritmos                               | Apresentação e Laboratório | 3 |
+  | 21,23,25/3 | Memória                                  | Apresentação e Laboratório |   |
+  | 28,30/1/4  | Estruturas de dados                      | Apresentação e Laboratório |   |
+  | 13/4       | Python                                   | Apresentação e Laboratório |   |
+  | 18,20/4    | Python, SQL                              | Apresentação e Laboratório |   |
+  | 25,27,29/4 | HTML, CSS, JavaScript                    | Apresentação e Laboratório |   |
+  | 2,4,6/5    | Flask                                    | Apresentação e Laboratório |   |
+  | 9,11,13/5  | Linguagens funcionais: Haskell           | Apresentação e Laboratório |   |
+  | 16,18,20/5 | Linguagens funcionais: Racket            | Apresentação e Laboratório |   |
+  | 23,25,27/5 | Provando correção: Lean                  | Apresentação e Laboratório |   |
+  | 30,1,3/6   | Apresentação de projetos                 | Apresentação e Laboratório |   |
+  | 6/6        | Conclusion                               | Apresentações              |   |
+  |------------+------------------------------------------+----------------------------+---|
 
 * Procedimentos de avaliação
 
